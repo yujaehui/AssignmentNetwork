@@ -1,5 +1,5 @@
 //
-//  LottoModel.swift
+//  Lotto.swift
 //  AssignmentNetwork
 //
 //  Created by Jaehui Yu on 1/16/24.

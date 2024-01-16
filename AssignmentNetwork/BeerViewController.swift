@@ -22,20 +22,21 @@ class BeerViewController: UIViewController {
         
         mainLabel.text = "오늘은 이 맥주를 추천합니다!"
         mainLabel.textAlignment = .center
-        mainLabel.font = .boldSystemFont(ofSize: 20)
+        mainLabel.font = FontStyle.main
         
         BeerNameLabel.textAlignment = .center
-        BeerNameLabel.font = .boldSystemFont(ofSize: 16)
+        BeerNameLabel.font = FontStyle.name
         
         BeerDescriptionLabel.textAlignment = .center
-        BeerDescriptionLabel.font = .systemFont(ofSize: 14)
+        BeerDescriptionLabel.font = FontStyle.descirption
         BeerDescriptionLabel.numberOfLines = 0
         
-        randomButton.setTitle("다른 맥주 추천받기", for: .normal)
+        randomButton.setImage(UIImage(systemName: "mug.fill"), for: .normal)
+        randomButton.setTitle(" 다른 맥주 추천받기", for: .normal)
         randomButton.tintColor = .orange
-        
+        randomButton.layer.cornerRadius = 10
+        randomButton.backgroundColor = .orange.withAlphaComponent(0.1)
         callRequest()
-        
     }
     
     @IBAction func randomButtonClicked(_ sender: UIButton) {

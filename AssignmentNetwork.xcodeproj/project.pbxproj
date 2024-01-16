@@ -16,9 +16,15 @@
 		09B8BEC82B5664FD0005C36B /* LottoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B8BEC72B5664FD0005C36B /* LottoViewController.swift */; };
 		09B8BECA2B56653D0005C36B /* BeerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B8BEC92B56653D0005C36B /* BeerViewController.swift */; };
 		09B8BECD2B5666C10005C36B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 09B8BECC2B5666C10005C36B /* Alamofire */; };
-		09B8BECF2B5667AF0005C36B /* LottoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B8BECE2B5667AF0005C36B /* LottoModel.swift */; };
 		09B8BED22B566FED0005C36B /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 09B8BED12B566FED0005C36B /* Kingfisher */; };
-		09B8BED42B5677BD0005C36B /* BeerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B8BED32B5677BD0005C36B /* BeerModel.swift */; };
+		09B8BED62B5692F00005C36B /* BeerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B8BED52B5692F00005C36B /* BeerListViewController.swift */; };
+		09B8BEDB2B56930F0005C36B /* BeerListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B8BED92B56930F0005C36B /* BeerListTableViewCell.swift */; };
+		09B8BEDC2B56930F0005C36B /* BeerListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09B8BEDA2B56930F0005C36B /* BeerListTableViewCell.xib */; };
+		09B8BEDE2B56956C0005C36B /* BeerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B8BEDD2B56956C0005C36B /* BeerList.swift */; };
+		09B8BEE02B5695EA0005C36B /* Lotto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B8BEDF2B5695EA0005C36B /* Lotto.swift */; };
+		09B8BEE22B5695FC0005C36B /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B8BEE12B5695FC0005C36B /* Beer.swift */; };
+		09B8BEE42B569E5B0005C36B /* UITableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B8BEE32B569E5B0005C36B /* UITableViewCell+Extension.swift */; };
+		09B8BEE92B569F270005C36B /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B8BEE82B569F270005C36B /* Enum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +38,14 @@
 		09B8BEC12B56647A0005C36B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09B8BEC72B5664FD0005C36B /* LottoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoViewController.swift; sourceTree = "<group>"; };
 		09B8BEC92B56653D0005C36B /* BeerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerViewController.swift; sourceTree = "<group>"; };
-		09B8BECE2B5667AF0005C36B /* LottoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoModel.swift; sourceTree = "<group>"; };
-		09B8BED32B5677BD0005C36B /* BeerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerModel.swift; sourceTree = "<group>"; };
+		09B8BED52B5692F00005C36B /* BeerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListViewController.swift; sourceTree = "<group>"; };
+		09B8BED92B56930F0005C36B /* BeerListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListTableViewCell.swift; sourceTree = "<group>"; };
+		09B8BEDA2B56930F0005C36B /* BeerListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BeerListTableViewCell.xib; sourceTree = "<group>"; };
+		09B8BEDD2B56956C0005C36B /* BeerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerList.swift; sourceTree = "<group>"; };
+		09B8BEDF2B5695EA0005C36B /* Lotto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lotto.swift; sourceTree = "<group>"; };
+		09B8BEE12B5695FC0005C36B /* Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
+		09B8BEE32B569E5B0005C36B /* UITableViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extension.swift"; sourceTree = "<group>"; };
+		09B8BEE82B569F270005C36B /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,12 +87,42 @@
 				09B8BEBC2B56647A0005C36B /* Assets.xcassets */,
 				09B8BEBE2B56647A0005C36B /* LaunchScreen.storyboard */,
 				09B8BEC12B56647A0005C36B /* Info.plist */,
-				09B8BECE2B5667AF0005C36B /* LottoModel.swift */,
+				09B8BEE52B569EBE0005C36B /* Model */,
 				09B8BEC72B5664FD0005C36B /* LottoViewController.swift */,
-				09B8BED32B5677BD0005C36B /* BeerModel.swift */,
 				09B8BEC92B56653D0005C36B /* BeerViewController.swift */,
+				09B8BED52B5692F00005C36B /* BeerListViewController.swift */,
+				09B8BED92B56930F0005C36B /* BeerListTableViewCell.swift */,
+				09B8BEDA2B56930F0005C36B /* BeerListTableViewCell.xib */,
+				09B8BEEA2B56A0850005C36B /* Enum */,
+				09B8BEE72B569EF00005C36B /* Extension */,
 			);
 			path = AssignmentNetwork;
+			sourceTree = "<group>";
+		};
+		09B8BEE52B569EBE0005C36B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				09B8BEDF2B5695EA0005C36B /* Lotto.swift */,
+				09B8BEE12B5695FC0005C36B /* Beer.swift */,
+				09B8BEDD2B56956C0005C36B /* BeerList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		09B8BEE72B569EF00005C36B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				09B8BEE32B569E5B0005C36B /* UITableViewCell+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		09B8BEEA2B56A0850005C36B /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				09B8BEE82B569F270005C36B /* Enum.swift */,
+			);
+			path = Enum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +194,7 @@
 				09B8BEC02B56647A0005C36B /* LaunchScreen.storyboard in Resources */,
 				09B8BEBD2B56647A0005C36B /* Assets.xcassets in Resources */,
 				09B8BEBB2B5664790005C36B /* Main.storyboard in Resources */,
+				09B8BEDC2B56930F0005C36B /* BeerListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,13 +205,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09B8BECF2B5667AF0005C36B /* LottoModel.swift in Sources */,
+				09B8BED62B5692F00005C36B /* BeerListViewController.swift in Sources */,
+				09B8BEDB2B56930F0005C36B /* BeerListTableViewCell.swift in Sources */,
+				09B8BEE92B569F270005C36B /* Enum.swift in Sources */,
 				09B8BECA2B56653D0005C36B /* BeerViewController.swift in Sources */,
+				09B8BEE22B5695FC0005C36B /* Beer.swift in Sources */,
 				09B8BEB82B5664790005C36B /* ViewController.swift in Sources */,
 				09B8BEC82B5664FD0005C36B /* LottoViewController.swift in Sources */,
+				09B8BEE42B569E5B0005C36B /* UITableViewCell+Extension.swift in Sources */,
 				09B8BEB42B5664790005C36B /* AppDelegate.swift in Sources */,
+				09B8BEE02B5695EA0005C36B /* Lotto.swift in Sources */,
+				09B8BEDE2B56956C0005C36B /* BeerList.swift in Sources */,
 				09B8BEB62B5664790005C36B /* SceneDelegate.swift in Sources */,
-				09B8BED42B5677BD0005C36B /* BeerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -23,7 +23,7 @@
             </objects>
             <point key="canvasLocation" x="-111" y="-191"/>
         </scene>
-        <!--Item-->
+        <!--Beer-->
         <scene sceneID="uwN-1R-qlv">
             <objects>
                 <viewController id="15Z-jN-GJ7" customClass="BeerViewController" customModule="AssignmentNetwork" customModuleProvider="target" sceneMemberID="viewController">
@@ -41,13 +41,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PY3-6q-9v1">
-                                <rect key="frame" x="20" y="139" width="353" height="353"/>
+                                <rect key="frame" x="50" y="149" width="293" height="293"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="PY3-6q-9v1" secondAttribute="height" multiplier="1:1" id="tYW-4j-MIG"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VIH-e9-llV">
-                                <rect key="frame" x="20" y="512" width="353" height="30"/>
+                                <rect key="frame" x="20" y="462" width="353" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="tXV-vF-1Mx"/>
                                 </constraints>
@@ -56,13 +56,16 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zH5-aW-seo">
-                                <rect key="frame" x="20" y="552" width="353" height="20.333333333333371"/>
+                                <rect key="frame" x="20" y="501.99999999999994" width="353" height="20.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X8J-Yn-Hvp">
-                                <rect key="frame" x="50" y="704.66666666666663" width="293" height="34.333333333333371"/>
+                                <rect key="frame" x="96.666666666666686" y="694.66666666666663" width="200" height="34.333333333333371"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="nom-m4-9FJ"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                 <connections>
@@ -79,19 +82,18 @@
                             <constraint firstItem="epa-X2-DwV" firstAttribute="trailing" secondItem="VIH-e9-llV" secondAttribute="trailing" constant="20" id="Knh-7j-mOk"/>
                             <constraint firstItem="zH5-aW-seo" firstAttribute="leading" secondItem="epa-X2-DwV" secondAttribute="leading" constant="20" id="LSE-dU-sR8"/>
                             <constraint firstItem="X8J-Yn-Hvp" firstAttribute="top" relation="greaterThanOrEqual" secondItem="zH5-aW-seo" secondAttribute="bottom" constant="20" id="MJ8-1z-I32"/>
-                            <constraint firstItem="PY3-6q-9v1" firstAttribute="leading" secondItem="epa-X2-DwV" secondAttribute="leading" constant="20" id="Pnd-Xx-SYG"/>
-                            <constraint firstItem="epa-X2-DwV" firstAttribute="trailing" secondItem="X8J-Yn-Hvp" secondAttribute="trailing" constant="50" id="QND-bB-efq"/>
-                            <constraint firstItem="epa-X2-DwV" firstAttribute="bottom" secondItem="X8J-Yn-Hvp" secondAttribute="bottom" constant="30" id="ROH-g2-h5g"/>
+                            <constraint firstItem="PY3-6q-9v1" firstAttribute="leading" secondItem="epa-X2-DwV" secondAttribute="leading" constant="50" id="Pnd-Xx-SYG"/>
+                            <constraint firstItem="epa-X2-DwV" firstAttribute="bottom" secondItem="X8J-Yn-Hvp" secondAttribute="bottom" constant="40" id="ROH-g2-h5g"/>
                             <constraint firstItem="VIH-e9-llV" firstAttribute="leading" secondItem="epa-X2-DwV" secondAttribute="leading" constant="20" id="Rx5-Y1-Qyl"/>
-                            <constraint firstItem="PY3-6q-9v1" firstAttribute="top" secondItem="nBr-Jo-hGo" secondAttribute="bottom" constant="20" id="brD-EP-GaC"/>
+                            <constraint firstItem="X8J-Yn-Hvp" firstAttribute="centerX" secondItem="5eY-bt-ncs" secondAttribute="centerX" id="bNV-vP-owP"/>
+                            <constraint firstItem="PY3-6q-9v1" firstAttribute="top" secondItem="nBr-Jo-hGo" secondAttribute="bottom" constant="30" id="brD-EP-GaC"/>
                             <constraint firstItem="nBr-Jo-hGo" firstAttribute="top" secondItem="epa-X2-DwV" secondAttribute="top" constant="20" id="e3F-0A-iHH"/>
-                            <constraint firstItem="X8J-Yn-Hvp" firstAttribute="leading" secondItem="epa-X2-DwV" secondAttribute="leading" constant="50" id="hsf-qh-uSO"/>
                             <constraint firstItem="VIH-e9-llV" firstAttribute="top" secondItem="PY3-6q-9v1" secondAttribute="bottom" constant="20" id="pO6-Pu-UK8"/>
                             <constraint firstItem="epa-X2-DwV" firstAttribute="trailing" secondItem="zH5-aW-seo" secondAttribute="trailing" constant="20" id="tM4-xb-p5C"/>
-                            <constraint firstItem="epa-X2-DwV" firstAttribute="trailing" secondItem="PY3-6q-9v1" secondAttribute="trailing" constant="20" id="vsJ-b9-yjm"/>
+                            <constraint firstItem="epa-X2-DwV" firstAttribute="trailing" secondItem="PY3-6q-9v1" secondAttribute="trailing" constant="50" id="vsJ-b9-yjm"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="2e8-au-CFz"/>
+                    <tabBarItem key="tabBarItem" title="Beer" image="mug.fill" catalog="system" id="2e8-au-CFz"/>
                     <connections>
                         <outlet property="BeerDescriptionLabel" destination="zH5-aW-seo" id="Urc-jn-0iW"/>
                         <outlet property="BeerImageView" destination="PY3-6q-9v1" id="gZ1-oK-pGf"/>
@@ -104,7 +106,38 @@
             </objects>
             <point key="canvasLocation" x="927" y="63"/>
         </scene>
-        <!--Item-->
+        <!--Beer List-->
+        <scene sceneID="eJP-yt-Izr">
+            <objects>
+                <viewController storyboardIdentifier="BeerListViewController" id="M5E-Rf-qYx" customClass="BeerListViewController" customModule="AssignmentNetwork" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="t9C-io-6FY">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="DSy-dW-i9b">
+                                <rect key="frame" x="0.0" y="59" width="393" height="710"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4q2-fZ-Mom"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="DSy-dW-i9b" firstAttribute="leading" secondItem="4q2-fZ-Mom" secondAttribute="leading" id="RAj-Eb-dSg"/>
+                            <constraint firstItem="DSy-dW-i9b" firstAttribute="top" secondItem="4q2-fZ-Mom" secondAttribute="top" id="XWK-6e-4Qk"/>
+                            <constraint firstItem="4q2-fZ-Mom" firstAttribute="bottom" secondItem="DSy-dW-i9b" secondAttribute="bottom" id="iA1-5n-sfW"/>
+                            <constraint firstItem="4q2-fZ-Mom" firstAttribute="trailing" secondItem="DSy-dW-i9b" secondAttribute="trailing" id="nhz-Mx-cfn"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Beer List" image="list.dash" catalog="system" id="Qah-wP-6rj"/>
+                    <connections>
+                        <outlet property="beerTableView" destination="DSy-dW-i9b" id="t12-fA-VBj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bL9-tE-Vr7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1741" y="63"/>
+        </scene>
+        <!--Lotto-->
         <scene sceneID="VlP-qX-W1K">
             <objects>
                 <viewController id="eAJ-fk-SaH" customClass="LottoViewController" customModule="AssignmentNetwork" customModuleProvider="target" sceneMemberID="viewController">
@@ -204,7 +237,7 @@
                             <outletCollection property="gestureRecognizers" destination="tHV-KY-67W" appends="YES" id="JDc-lz-6R6"/>
                         </connections>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="rhT-8G-64G"/>
+                    <tabBarItem key="tabBarItem" title="Lotto" image="7.circle.fill" catalog="system" id="rhT-8G-64G"/>
                     <connections>
                         <outlet property="bonusImageView" destination="VXX-TT-aWv" id="7jQ-82-3gs"/>
                         <outlet property="dateTextField" destination="E9P-b4-gF6" id="B1A-sz-p5O"/>
@@ -232,12 +265,14 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Ic9-mz-eVD" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mor-Fk-8Ks">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="eAJ-fk-SaH" kind="relationship" relationship="viewControllers" id="TdE-oU-2U6"/>
                         <segue destination="15Z-jN-GJ7" kind="relationship" relationship="viewControllers" id="Uge-UM-hFu"/>
+                        <segue destination="M5E-Rf-qYx" kind="relationship" relationship="viewControllers" id="GCa-R0-Ghi"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ENy-CW-FtG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -246,6 +281,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="7.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="list.dash" catalog="system" width="128" height="85"/>
+        <image name="mug.fill" catalog="system" width="128" height="125"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
