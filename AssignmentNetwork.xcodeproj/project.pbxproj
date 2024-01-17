@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		09191C332B5785E100E3FE7B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 09191C322B5785E100E3FE7B /* .gitignore */; };
+		09191C352B57861E00E3FE7B /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09191C342B57861E00E3FE7B /* APIKey.swift */; };
+		09191C372B57865A00E3FE7B /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09191C362B57865A00E3FE7B /* Book.swift */; };
+		09191C392B57868F00E3FE7B /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09191C382B57868F00E3FE7B /* BookViewController.swift */; };
+		09191C3B2B57886100E3FE7B /* Papago.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09191C3A2B57886100E3FE7B /* Papago.swift */; };
+		09191C3D2B57889800E3FE7B /* PapagoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09191C3C2B57889800E3FE7B /* PapagoViewController.swift */; };
+		09191C402B579DB900E3FE7B /* BookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09191C3E2B579DB900E3FE7B /* BookCollectionViewCell.swift */; };
+		09191C412B579DB900E3FE7B /* BookCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09191C3F2B579DB900E3FE7B /* BookCollectionViewCell.xib */; };
+		09191C432B57AA3C00E3FE7B /* LanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09191C422B57AA3C00E3FE7B /* LanguageViewController.swift */; };
+		09191C452B57CE3300E3FE7B /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09191C442B57CE3300E3FE7B /* UIButton+Extension.swift */; };
+		09191C472B57CE4F00E3FE7B /* UITextView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09191C462B57CE4F00E3FE7B /* UITextView+Extension.swift */; };
 		09B8BEB42B5664790005C36B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B8BEB32B5664790005C36B /* AppDelegate.swift */; };
 		09B8BEB62B5664790005C36B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B8BEB52B5664790005C36B /* SceneDelegate.swift */; };
 		09B8BEB82B5664790005C36B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B8BEB72B5664790005C36B /* ViewController.swift */; };
@@ -30,6 +40,16 @@
 
 /* Begin PBXFileReference section */
 		09191C322B5785E100E3FE7B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		09191C342B57861E00E3FE7B /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		09191C362B57865A00E3FE7B /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		09191C382B57868F00E3FE7B /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		09191C3A2B57886100E3FE7B /* Papago.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Papago.swift; sourceTree = "<group>"; };
+		09191C3C2B57889800E3FE7B /* PapagoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PapagoViewController.swift; sourceTree = "<group>"; };
+		09191C3E2B579DB900E3FE7B /* BookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewCell.swift; sourceTree = "<group>"; };
+		09191C3F2B579DB900E3FE7B /* BookCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookCollectionViewCell.xib; sourceTree = "<group>"; };
+		09191C422B57AA3C00E3FE7B /* LanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageViewController.swift; sourceTree = "<group>"; };
+		09191C442B57CE3300E3FE7B /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		09191C462B57CE4F00E3FE7B /* UITextView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+Extension.swift"; sourceTree = "<group>"; };
 		09B8BEB02B5664790005C36B /* AssignmentNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssignmentNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09B8BEB32B5664790005C36B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09B8BEB52B5664790005C36B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,8 +116,14 @@
 				09B8BED52B5692F00005C36B /* BeerListViewController.swift */,
 				09B8BED92B56930F0005C36B /* BeerListTableViewCell.swift */,
 				09B8BEDA2B56930F0005C36B /* BeerListTableViewCell.xib */,
+				09191C382B57868F00E3FE7B /* BookViewController.swift */,
+				09191C3E2B579DB900E3FE7B /* BookCollectionViewCell.swift */,
+				09191C3F2B579DB900E3FE7B /* BookCollectionViewCell.xib */,
+				09191C3C2B57889800E3FE7B /* PapagoViewController.swift */,
+				09191C422B57AA3C00E3FE7B /* LanguageViewController.swift */,
 				09B8BEEA2B56A0850005C36B /* Enum */,
 				09B8BEE72B569EF00005C36B /* Extension */,
+				09191C342B57861E00E3FE7B /* APIKey.swift */,
 			);
 			path = AssignmentNetwork;
 			sourceTree = "<group>";
@@ -108,6 +134,8 @@
 				09B8BEDF2B5695EA0005C36B /* Lotto.swift */,
 				09B8BEE12B5695FC0005C36B /* Beer.swift */,
 				09B8BEDD2B56956C0005C36B /* BeerList.swift */,
+				09191C362B57865A00E3FE7B /* Book.swift */,
+				09191C3A2B57886100E3FE7B /* Papago.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -116,6 +144,8 @@
 			isa = PBXGroup;
 			children = (
 				09B8BEE32B569E5B0005C36B /* UITableViewCell+Extension.swift */,
+				09191C442B57CE3300E3FE7B /* UIButton+Extension.swift */,
+				09191C462B57CE4F00E3FE7B /* UITextView+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -195,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09191C332B5785E100E3FE7B /* .gitignore in Resources */,
+				09191C412B579DB900E3FE7B /* BookCollectionViewCell.xib in Resources */,
 				09B8BEC02B56647A0005C36B /* LaunchScreen.storyboard in Resources */,
 				09B8BEBD2B56647A0005C36B /* Assets.xcassets in Resources */,
 				09B8BEBB2B5664790005C36B /* Main.storyboard in Resources */,
@@ -211,16 +242,25 @@
 			files = (
 				09B8BED62B5692F00005C36B /* BeerListViewController.swift in Sources */,
 				09B8BEDB2B56930F0005C36B /* BeerListTableViewCell.swift in Sources */,
+				09191C372B57865A00E3FE7B /* Book.swift in Sources */,
+				09191C402B579DB900E3FE7B /* BookCollectionViewCell.swift in Sources */,
 				09B8BEE92B569F270005C36B /* Enum.swift in Sources */,
 				09B8BECA2B56653D0005C36B /* BeerViewController.swift in Sources */,
 				09B8BEE22B5695FC0005C36B /* Beer.swift in Sources */,
 				09B8BEB82B5664790005C36B /* ViewController.swift in Sources */,
 				09B8BEC82B5664FD0005C36B /* LottoViewController.swift in Sources */,
 				09B8BEE42B569E5B0005C36B /* UITableViewCell+Extension.swift in Sources */,
+				09191C3D2B57889800E3FE7B /* PapagoViewController.swift in Sources */,
 				09B8BEB42B5664790005C36B /* AppDelegate.swift in Sources */,
 				09B8BEE02B5695EA0005C36B /* Lotto.swift in Sources */,
+				09191C452B57CE3300E3FE7B /* UIButton+Extension.swift in Sources */,
+				09191C472B57CE4F00E3FE7B /* UITextView+Extension.swift in Sources */,
 				09B8BEDE2B56956C0005C36B /* BeerList.swift in Sources */,
+				09191C392B57868F00E3FE7B /* BookViewController.swift in Sources */,
+				09191C352B57861E00E3FE7B /* APIKey.swift in Sources */,
 				09B8BEB62B5664790005C36B /* SceneDelegate.swift in Sources */,
+				09191C432B57AA3C00E3FE7B /* LanguageViewController.swift in Sources */,
+				09191C3B2B57886100E3FE7B /* Papago.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

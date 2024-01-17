@@ -12,4 +12,7 @@ enum FontStyle {
     static let name: UIFont = .boldSystemFont(ofSize: 18)
     static let ABV: UIFont = .systemFont(ofSize: 16)
     static let descirption: UIFont = .systemFont(ofSize: 14)
+    
+    static let primary: UIFont = .boldSystemFont(ofSize: 16)
+    static let sub: UIFont = .systemFont(ofSize: 14)
 }
