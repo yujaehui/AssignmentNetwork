@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09191C332B5785E100E3FE7B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 09191C322B5785E100E3FE7B /* .gitignore */; };
 		09B8BEB42B5664790005C36B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B8BEB32B5664790005C36B /* AppDelegate.swift */; };
 		09B8BEB62B5664790005C36B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B8BEB52B5664790005C36B /* SceneDelegate.swift */; };
 		09B8BEB82B5664790005C36B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B8BEB72B5664790005C36B /* ViewController.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09191C322B5785E100E3FE7B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		09B8BEB02B5664790005C36B /* AssignmentNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssignmentNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09B8BEB32B5664790005C36B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09B8BEB52B5664790005C36B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 		09B8BEA72B5664790005C36B = {
 			isa = PBXGroup;
 			children = (
+				09191C322B5785E100E3FE7B /* .gitignore */,
 				09B8BEB22B5664790005C36B /* AssignmentNetwork */,
 				09B8BEB12B5664790005C36B /* Products */,
 			);
@@ -191,6 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09191C332B5785E100E3FE7B /* .gitignore in Resources */,
 				09B8BEC02B56647A0005C36B /* LaunchScreen.storyboard in Resources */,
 				09B8BEBD2B56647A0005C36B /* Assets.xcassets in Resources */,
 				09B8BEBB2B5664790005C36B /* Main.storyboard in Resources */,
